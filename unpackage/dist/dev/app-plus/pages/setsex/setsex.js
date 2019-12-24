@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"content.",[1],"data-v-c34fb8fa { position: absolute; left: 0; right: 0; bottom: 0; top: 0; background: #F8F8F8; }\n.",[1],"content .",[1],"btn.",[1],"data-v-c34fb8fa { padding: ",[0,40]," ",[0,20],"; }\n.",[1],"content .",[1],"radio.",[1],"data-v-c34fb8fa { background: white; padding: ",[0,20]," ",[0,30],"; }\n",],undefined,{path:"./pages/setsex/setsex.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/setsex/setsex.wxml') } }));

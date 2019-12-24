@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的账号",
+  "navigationBarBackgroundColor": "#ffe556",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "uni-popup": "/components/uni-ui/uni-popup/uni-popup"
+  }
+}

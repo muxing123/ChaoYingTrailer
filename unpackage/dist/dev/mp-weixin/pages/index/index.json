@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "超英预告",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-rate": "/components/uni-ui/uni-rate/uni-rate",
+    "guess-u-like": "/components/index/guessULike/guessULike"
+  }
+}

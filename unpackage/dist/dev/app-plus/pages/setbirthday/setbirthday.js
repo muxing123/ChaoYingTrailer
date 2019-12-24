@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"content.",[1],"data-v-5b0f887a { position: absolute; left: 0; right: 0; bottom: 0; top: 0; background: #F8F8F8; }\n.",[1],"content .",[1],"btn.",[1],"data-v-5b0f887a { padding: ",[0,40]," ",[0,20],"; }\n.",[1],"content .",[1],"uni-input.",[1],"data-v-5b0f887a { background: white; padding: ",[0,20]," ",[0,30],"; }\n",],undefined,{path:"./pages/setbirthday/setbirthday.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/setbirthday/setbirthday.wxml') } }));

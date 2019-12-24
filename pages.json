@@ -1,0 +1,110 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"h5":{
+					"titleNView":false
+				},
+				"navigationBarTitleText": "超英预告",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"h5":{
+					"titleNView":false
+				},
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"h5":{
+					"titleNView":false
+				},
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/mydetail/mydetail",
+			"style": {
+				"navigationBarTitleText": "我的账号",
+				"navigationBarBackgroundColor": "#ffe556",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"h5":{
+					"titleNView":{
+						"type":"transparent",
+						"buttons":[{
+							"type":"share"
+						}]
+					}
+				},
+				"navigationBarTitleText": "电影详情"
+			}
+		},
+		{
+			"path": "pages/registerlogin/registerlogin",
+			"style": {
+				"h5":{
+					"titleNView":{
+						"type":"transparent"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/setname/setname",
+			"style": {
+				"navigationBarTitleText": "修改昵称"
+			}
+		},
+		{
+			"path": "pages/setbirthday/setbirthday",
+			"style": {
+				"navigationBarTitleText": "修改生日"
+			}
+		},
+		{
+			"path": "pages/setsex/setsex",
+			"style": {
+				"navigationBarTitleText": "修改性别"
+			}
+		}
+	],
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#3cc51f",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/images/index.png",
+	        "selectedIconPath": "static/images/index_sel.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/search/search",
+	        "iconPath": "static/images/search.png",
+	        "selectedIconPath": "static/images/search_sel.png",
+	        "text": "搜索"
+	    },{
+	        "pagePath": "pages/mine/mine",
+	        "iconPath": "static/images/me.png",
+	        "selectedIconPath": "static/images/me_sel.png",
+	        "text": "我的"
+	    }]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "超英预告",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

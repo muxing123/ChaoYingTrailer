@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.content.data-v-6f530469 {
+  background: #f2f2f2;
+  /*热门超英*/
+  /*热门预告*/
+}
+.content .wheel .item .swiper-item .img.data-v-6f530469 {
+    width: 100%;
+}
+.content .transHot.data-v-6f530469 {
+    background: white;
+    margin: 20rpx 0;
+}
+.content .transHot .title.data-v-6f530469 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+              align-items: center;
+      padding: 20rpx;
+}
+.content .transHot .title .img.data-v-6f530469 {
+        width: 30rpx;
+        height: 30rpx;
+}
+.content .transHot .title .right.data-v-6f530469 {
+        font-size: 30rpx;
+        font-weight: bold;
+        padding-left: 20rpx;
+}
+.content .transHot .superheroList.data-v-6f530469 {
+      padding-left: 20rpx;
+      white-space: nowrap;
+}
+.content .transHot .superheroList .item.data-v-6f530469 {
+        display: inline-block;
+        width: 160rpx;
+        padding-right: 20rpx;
+        font-size: 26rpx;
+}
+.content .transHot .superheroList .item .img.data-v-6f530469 {
+          width: 100%;
+          height: 160rpx;
+}
+.content .transHot .superheroList .item .name.data-v-6f530469 {
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          padding-bottom: 4rpx;
+}
+.content .transHot .superheroList .item .rate.data-v-6f530469 {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+                  align-items: center;
+}
+.content .transHot .superheroList .item .rate .score.data-v-6f530469 {
+            font-size: 24rpx;
+            position: relative;
+            bottom: 4rpx;
+}
+.content .trailer .title.data-v-6f530469 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    padding: 20rpx;
+    background: white;
+}
+.content .trailer .title .img.data-v-6f530469 {
+      width: 30rpx;
+      height: 30rpx;
+}
+.content .trailer .title .right.data-v-6f530469 {
+      font-size: 30rpx;
+      font-weight: bold;
+      padding-left: 20rpx;
+}
+.content .trailer .trailerList.data-v-6f530469 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+    padding: 0 20rpx 10rpx;
+}
+.content .trailer .trailerList .item.data-v-6f530469 {
+      width: 48%;
+      height: 360rpx;
+      margin: 20rpx 0 10rpx;
+}
+
